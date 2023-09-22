@@ -23,7 +23,7 @@ const Responsive = {
 };
 const Gallery = () => {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <h1 className="capitalize mb-5 text-center font-bold lg:text-[40px] text-center md:text-[30px] max-sm:text-[25px]">
         from our gallery
       </h1>
@@ -39,18 +39,21 @@ const Gallery = () => {
         smartSpeed={800}
       >
         {data.resources.map((item, index) => (
-          <div className="aspect-square">
+          <div className="aspect-square" key={index}>
             <Image
               src={item.imageUrl}
               alt=""
               fill
               className="object-cover item"
-              key={index}
             />
           </div>
         ))}
       </OwlCarousel>
-      <Button type={"button"} label={"visit gallery"} classes="m-auto bg-black capitalize" />
+      <Button
+        type={"button"}
+        label={"visit our gallery"}
+        classes="justify-self-center text-lg capitalize mt-10 font-bold"
+      />
     </div>
   );
 };

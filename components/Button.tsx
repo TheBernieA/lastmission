@@ -1,23 +1,20 @@
 import Image from "next/image";
 
-const Button = ({
-  type,
-  label,
-  img,
-  classes,
-}: {
-  type: any;
-  label: any;
-  img?: any;
-  classes?: any;
-}) => {
+interface IButton {
+  type?: string;
+  label: string;
+  img?: string;
+  classes?: string;
+}
+
+const Button = ({ type, label, img, classes }: IButton) => {
   return (
-    <button className="" type={type}>
+    <button className={`${classes}`} type={type || 'button'}>
       {img && (
         <Image
           src=""
           alt="arrow right icon"
-          className={`ml-2 rounded-full w-5 h-5 ${classes}`}
+          className={`ml-2 rounded-full w-5 h-5 `}
         />
       )}
       {label}

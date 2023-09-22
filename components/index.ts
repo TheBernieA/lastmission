@@ -7,6 +7,7 @@ import RolesAndResponsibilities from "./RolesAndResponsibilities";
 import Upcoming from "./Upcoming";
 import SupportUs from "./SupportUs";
 import GalleryCarousel from "./GalleryCarousel";
+import EventCard from "./EventCard";
 
 export {
   Button,
@@ -16,6 +17,7 @@ export {
   SupportUs,
   RolesAndResponsibilities,
   Upcoming,
+  EventCard,
   GalleryCarousel,
   Footer,
 };

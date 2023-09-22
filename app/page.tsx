@@ -23,7 +23,7 @@ export default function Home() {
         <section className="bg-pale-blue padding">
           <RolesAndResponsibilities />
         </section>
-        <section className="padding-x sm:py-32 py-16 w-full">
+        <section className="padding">
           <Upcoming />
         </section>
         <section className="padding 2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">

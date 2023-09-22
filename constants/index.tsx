@@ -1,4 +1,15 @@
-import { eight, five, four, nine, one, seven, six, three, two } from "@public/assets/gallery";
+import { hamidu, pusiga } from "@public/assets/events";
+import {
+  eight,
+  five,
+  four,
+  nine,
+  one,
+  seven,
+  six,
+  three,
+  two,
+} from "@public/assets/gallery";
 import {
   facebook,
   instagram,
@@ -141,39 +152,42 @@ export const RolesAndResponsibilities = [
 export const gallery = {
   resources: [
     {
-      title: "Find me on Twitter",
-      link: "https://twitter.com/kendalmintcode",
       imageUrl: one,
     },
     {
-      title: "Welcome to Ark Labs",
-      link: "https://ark-labs.co.uk",
       imageUrl: two,
     },
     {
-      title: "Some sort of third title",
-      link: "https://twitter.com/kendalmintcode",
       imageUrl: three,
     },
     {
-      title: "A personal site perhaps?",
-      link: "https://robkendal.co.uk",
       imageUrl: four,
     },
     {
-      title: "Super item number five",
-      link: "https://twitter.com/kendalmintcode",
       imageUrl: five,
     },
     {
-      title: "Super item number six",
-      link: "https://twitter.com/kendalmintcode",
       imageUrl: six,
     },
     {
-      title: "Super item number eight",
-      link: "https://twitter.com/kendalmintcode",
       imageUrl: eight,
     },
   ],
 };
+
+export const events = [
+  {
+    image: hamidu,
+    text: "hamidu medical outreac",
+    subText: "sharing god's love through health care",
+    startDate: "28/sep/2023",
+    endDate: "1/oct/2023",
+  },
+  {
+    image: pusiga,
+    text: "pusiga medical outreac",
+    subText: "sharing god's love through health care",
+    startDate: "24/aug/2023",
+    endDate: "26/oct/2023",
+  },
+];

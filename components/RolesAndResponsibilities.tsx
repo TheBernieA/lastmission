@@ -34,7 +34,7 @@ const RolesAndResponsibilities = () => {
             </li>
           ))}
         </ul>
-        <p className="self-center text-2xl max-sm:text-base">
+        <p className="self-center text-xl max-sm:text-base max-sm:w-full w-[60%] m-auto">
           By following these steps, our organization can ensure that its actions
           align with its values and effectively serve the needs of the
           community.
