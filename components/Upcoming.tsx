@@ -14,6 +14,8 @@ const Upcoming = () => {
             image={event.image}
             startDate={event.startDate}
             endDate={event.endDate}
+            text={event.text}
+            subText={event.subText}
           />
         ))}
       </div>

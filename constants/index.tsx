@@ -29,6 +29,7 @@ import {
   encourageGrowth,
   evaluateAdjust,
 } from "@public/assets/images";
+import { IEvent } from "@types";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
