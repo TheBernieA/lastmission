@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 interface IButton {
-  type?: string;
+  type?: "button" | "submit";
   label: string;
   img?: string;
   classes?: string;
@@ -9,7 +9,7 @@ interface IButton {
 
 const Button = ({ type, label, img, classes }: IButton) => {
   return (
-    <button className={`${classes}`} type={type || 'button'}>
+    <button className={`${classes}`} type={type || "button"}>
       {img && (
         <Image
           src=""
