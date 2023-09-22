@@ -7,7 +7,7 @@ import { formatDate, hasDatePassed, splitDate } from "@utils";
 import { useEffect } from "react";
 
 interface IEvent {
-  image?: string;
+  image: string;
   startDate: string;
   endDate: string;
 }
