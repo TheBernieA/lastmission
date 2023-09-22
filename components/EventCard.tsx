@@ -9,7 +9,7 @@ import { useEffect } from "react";
 interface IEvent {
   image?: string;
   startDate: string;
-  endDate?: string;
+  endDate: string;
 }
 
 const EventCard = ({ image, startDate, endDate }: IEvent) => {
@@ -19,11 +19,8 @@ const EventCard = ({ image, startDate, endDate }: IEvent) => {
   const convertDate = new Date(endDate);
   const formattedDate: string = formatDate(convertDate);
   // const formattedDate =
-  console.log(formattedDate);
 
   const dateNotPassed = hasDatePassed(formattedDate);
-  console.log(dateNotPassed, "data passed ");
-
   return (
     <>
     {dateNotPassed && ( <div className="flex padding cursor-pointer max-sm:flex-col max-sm:items-center">

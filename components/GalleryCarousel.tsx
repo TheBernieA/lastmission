@@ -43,8 +43,7 @@ const Gallery = () => {
             <Image
               src={item.imageUrl}
               alt=""
-              fill
-              className="object-cover item"
+              className="object-cover item w-full h-full"
             />
           </div>
         ))}
