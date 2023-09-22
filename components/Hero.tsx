@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="hero min-h-screen hero__bg">
-      <div className="relative flex flex-col flex-1 pt-36 padding-x xl:padding-l wide:padding-r z-[1]">
+      <div className="relative flex flex-col flex-1 pt-36 padding-x xl:padding-l wide:padding-r">
         <h1 className="hero__title text-white uppercase">
           The nations gospel <br />{" "}
           <span className="text-light-brown">medical </span>missions

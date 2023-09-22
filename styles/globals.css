@@ -39,19 +39,37 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   -webkit-backdrop-filter: blur(15px);
 }
-.skew::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 150px;
-  background-color: #fff;
-  transform: skew(0deg, -4deg);
+
+.owl-carousel {
+  margin: auto;
+  position: relative;
+  width: 80% !important;
+}
+.owl-prev,
+.owl-next {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 2rem;
-  transform-origin: left;
-  z-index: -1;
+  top: 50%;
+  transform: translate(0, -60%);
+  background: white !important;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50% !important;
+  font-weight: bold !important;
+  font-size: 2rem !important;
+}
+.owl-prev:hover span,
+.owl-next:hover span {
+  color: black !important;
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  margin-top: 10px;
 }
 
 /* START: General styles */

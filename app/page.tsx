@@ -6,6 +6,7 @@ import {
   RolesAndResponsibilities,
   Upcoming,
   SupportUs,
+  GalleryCarousel,
 } from "@components";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <section className="">
           <Hero />
         </section>
-        <section className="relative padding sections-gradient skew">
+        <section className="relative padding sections-gradient">
           <Vision />
         </section>
         <section className="bg-pale-blue padding">
@@ -24,6 +25,9 @@ export default function Home() {
         </section>
         <section className="padding-x sm:py-32 py-16 w-full">
           <Upcoming />
+        </section>
+        <section className="padding 2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
+          <GalleryCarousel />
         </section>
         <section className="padding">
           <SupportUs />

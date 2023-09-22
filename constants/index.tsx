@@ -1,3 +1,4 @@
+import { eight, five, four, nine, one, seven, six, three, two } from "@public/assets/gallery";
 import {
   facebook,
   instagram,
@@ -24,14 +25,11 @@ export const navLinks = [
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-
-
 export const statistics = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250k+", label: "Customers" },
 ];
-
 
 export const services = [
   {
@@ -51,7 +49,6 @@ export const services = [
     subtext: "Our dedicated team is here to assist you every step of the way.",
   },
 ];
-
 
 export const footerLinks = [
   // {
@@ -140,3 +137,43 @@ export const RolesAndResponsibilities = [
     image: evaluateAdjust,
   },
 ];
+
+export const gallery = {
+  resources: [
+    {
+      title: "Find me on Twitter",
+      link: "https://twitter.com/kendalmintcode",
+      imageUrl: one,
+    },
+    {
+      title: "Welcome to Ark Labs",
+      link: "https://ark-labs.co.uk",
+      imageUrl: two,
+    },
+    {
+      title: "Some sort of third title",
+      link: "https://twitter.com/kendalmintcode",
+      imageUrl: three,
+    },
+    {
+      title: "A personal site perhaps?",
+      link: "https://robkendal.co.uk",
+      imageUrl: four,
+    },
+    {
+      title: "Super item number five",
+      link: "https://twitter.com/kendalmintcode",
+      imageUrl: five,
+    },
+    {
+      title: "Super item number six",
+      link: "https://twitter.com/kendalmintcode",
+      imageUrl: six,
+    },
+    {
+      title: "Super item number eight",
+      link: "https://twitter.com/kendalmintcode",
+      imageUrl: eight,
+    },
+  ],
+};

@@ -15,7 +15,7 @@ const RolesAndResponsibilities = () => {
         <ul className="grid grid-cols-1">
           {roles.map((data, index) => (
             <li
-              className="flex gap-4 lg:h-[300px] max-sm:h-fit lg:even:flex-row-reverse max-sm:flex-col"
+              className="flex gap-4 lg:h-[300px] 2xl:h-[600px] max-sm:h-fit lg:even:flex-row-reverse max-sm:flex-col"
               key={index}
             >
               <div className="flex flex-col p-3 h-full text-center text-xl justify-center w-1/2 max-sm:text-base max-sm:w-full">

@@ -6,6 +6,7 @@ import Vision from "./Vision";
 import RolesAndResponsibilities from "./RolesAndResponsibilities";
 import Upcoming from "./Upcoming";
 import SupportUs from "./SupportUs";
+import GalleryCarousel from "./GalleryCarousel";
 
 export {
   Button,
@@ -15,5 +16,6 @@ export {
   SupportUs,
   RolesAndResponsibilities,
   Upcoming,
+  GalleryCarousel,
   Footer,
 };
