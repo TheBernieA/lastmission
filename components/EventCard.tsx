@@ -19,7 +19,7 @@ const EventCard = ({ image, startDate, endDate, text, subText }: IEvent) => {
   return (
     <>
       {dateNotPassed && (
-        <div className="flex padding cursor-pointer max-sm:flex-col max-sm:items-center">
+        <div className="flex padding lg:flex-row cursor-pointer max-sm:flex-col max-sm:items-center md:items-center md:flex-col">
           <div className="flex">
             <div className="flex flex-col items-center">
               <h1 className="font-bold text-[30px] max-sm:text-[27px]">
@@ -45,24 +45,26 @@ const EventCard = ({ image, startDate, endDate, text, subText }: IEvent) => {
               </h3>
             </div>
           </div>
-          <div className="flex flex-1 ml-20 max-sm:flex-col max-sm:ml-0 max-sm:items-center">
+          <div className="flex flex-1 lg:items-start md:mt-5 lg:mt-0 lg:flex-row md:ml-0 md:flex-col lg:ml-20 max-sm:flex-col md:items-center max-sm:ml-0 max-sm:items-center">
             <Image
               src={image}
               width={100}
               height={100}
               alt=""
-              className="object-contain max-sm:mt-5"
+              className="object-contain lg:w-[100px] lg:h-[100px] md:w-[200px] md:h-[200px] max-sm:mt-5"
             />
-            <div className="flex flex-col mt-4 ml-6 gap-2 max-sm:ml-0 max-sm:items-center">
-              <h2 className="capitalize font-bold max-sm:text-center">
+            <div className="flex flex-col mt-4 lg:ml-6 gap-2 max-sm:ml-0 max-sm:items-center md:ml-0 md:text-center lg:text-left">
+              <h2 className="capitalize font-bold md:text-xl max-sm:text-center">
                 {text}
               </h2>
-              <p className="capitalize">{subText}</p>
+              <p className="capitalize max-sm:text-sm lg:text-base max-sm:text-center md:text-xl">
+                {subText}
+              </p>
             </div>
           </div>
           <Button
             label={"support us"}
-            classes="max-sm:mt-5 border-2 border-light-brown flex rounded-md justify-center items-center px-5 h-10 self-center hover:bg-light-brown hover:text-white ease-in-out duration-300"
+            classes="max-sm:mt-5 md:mt-5 lg:mt-0 border-2 border-light-brown flex rounded-md justify-center items-center px-5 h-10 self-center hover:bg-light-brown hover:text-white ease-in-out duration-300 md:px-7 md:py-4"
           />
         </div>
       )}

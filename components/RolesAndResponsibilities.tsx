@@ -15,7 +15,7 @@ const RolesAndResponsibilities = () => {
         <ul className="grid grid-cols-1">
           {roles.map((data, index) => (
             <li
-              className="flex gap-4 lg:h-[300px] 2xl:h-[600px] max-sm:h-fit lg:even:flex-row-reverse max-sm:flex-col"
+              className="flex gap-4 lg:h-[300px] 2xl:h-[600px] max-sm:h-fit lg:even:flex-row-reverse max-sm:flex-col md:even:flex-row-reverse md:h-[230px] md:mt-3"
               key={index}
             >
               <div className="flex flex-col p-3 h-full text-center text-xl justify-center w-1/2 max-sm:text-base max-sm:w-full">
@@ -34,7 +34,7 @@ const RolesAndResponsibilities = () => {
             </li>
           ))}
         </ul>
-        <p className="self-center text-xl max-sm:text-base max-sm:w-full w-[60%] m-auto">
+        <p className="self-center text-xl max-sm:text-base max-sm:w-full w-[60%] m-auto md:w-[80%]">
           By following these steps, our organization can ensure that its actions
           align with its values and effectively serve the needs of the
           community.

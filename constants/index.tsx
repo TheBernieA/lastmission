@@ -191,4 +191,11 @@ export const events = [
     startDate: "24/aug/2023",
     endDate: "26/oct/2023",
   },
+  // {
+  //   image: pusiga,
+  //   text: "pusiga medical outreac",
+  //   subText: "sharing god's love through health care",
+  //   startDate: "1/jan/2023",
+  //   endDate: "4/feb/2023",
+  // },
 ];
